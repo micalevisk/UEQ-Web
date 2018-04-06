@@ -72,7 +72,7 @@
       const parsedText = tableDataToString(TABLE_FORM, allCheckedRadio);
       if (filename &&
           !!filename.trim() &&
-          allCheckedRadio.length == 4) download(filename, parsedText);
+          allCheckedRadio.length == QTD_LINHAS_UTEIS) download(filename, parsedText);
       else alert('Algo Incompleto')
     }
   </script>
