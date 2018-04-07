@@ -17,10 +17,6 @@ tr:nth-child(even) {
   background-color: #EAEAEA;
 }
 
-tr:nth-child(even) {
-  background-color: #EAEAEA;
-}
-
 td:first-child {
   text-align: right;
   padding: 10px;
