@@ -1,0 +1,38 @@
+button {
+  cursor: pointer;
+}
+
+table {
+  margin: 0 auto;
+  font-family: arial, sans-serif;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+tr:first-child {
+  color: #dddddd;
+}
+
+tr:nth-child(even) {
+  background-color: #EAEAEA;
+}
+
+tr:nth-child(even) {
+  background-color: #EAEAEA;
+}
+
+td:first-child {
+  text-align: right;
+  padding: 10px;
+}
+
+td:nth-child(9) {
+  padding: 10px;
+  text-align: left;
+}
+
+td:last-child {
+  padding: 10px;
+  color: #dddddd;
+  background-color: white;
+}
