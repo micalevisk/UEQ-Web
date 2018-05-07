@@ -1,4 +1,4 @@
-let questionnarieItems = `[
+let questionnarieItems = [
   { "left": "irritante", "right": "divertido" },
   { "left": "incompreensivel", "right": "compreensível" },
   { "left": "criativo", "right": "entediante" },
@@ -25,6 +25,4 @@ let questionnarieItems = `[
   { "left": "atraente", "right": "repulsivo" },
   { "left": "amigável", "right": "não amigável" },
   { "left": "conservador", "right": "inovador" }
-]`;
-
-questionnarieItems = JSON.parse(questionnarieItems);
+];
